@@ -20,7 +20,7 @@ function Home() {
               
               <div className="col-xl-7 col-lg-6 col-md-6 col-12">
                 <div className="home-content">
-                  <p className="common-desctiption animate__animated animate__fadeInDown animate__delay-1s">-Get to know me-</p>
+                  <p className="common-desctiption animate__animated animate__fadeInDown animate__delay-1s">- Get to know me -</p>
                   <h1 className="common-title animate__animated animate__fadeInDown animate__delay-1s">Subhajit Majhi</h1>
                   <div className="animated-bar animate__animated animate__fadeInDown animate__delay-2s"></div>
                   <div className="animated-text animate__animated animate__fadeInDown animate__delay-2s">
