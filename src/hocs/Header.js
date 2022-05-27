@@ -38,13 +38,13 @@ const Header = () => {
                 <div className="social__tooltip social__tooltip-bottom">Portfolio</div>
                 </a>
             </li>
-            <li className="list">
-                <a href="#blog">
+            <li className={splitLocation[1] === "blog" ? "list active" : "list"}>
+                <NavLink to="/blog">
                 <span className="icon">
                     <i className="fas fa-blog"></i>
                 </span>
                 <div className="social__tooltip social__tooltip-bottom">Blog</div>
-                </a>
+                </NavLink>
             </li>
             <li className="list">
                 <a href="#contact">
