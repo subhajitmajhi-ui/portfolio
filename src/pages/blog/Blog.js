@@ -2,7 +2,7 @@ import React from 'react'
 import withLayout from '../../hocs/Layout'
 
 const blog = () => {
-  return (
+  return (    
     <>
         <section id="blog" className="section active">
         <div className="homecolor-box"></div>
